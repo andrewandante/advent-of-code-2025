@@ -34,7 +34,7 @@ for bank in data:
     print(ones_digit)
 
     ## convert digits to real numbers
-    joltage = (10 * int(tens_digit) + int(ones_digit))
+    joltage = int(str(tens_digit) + str(ones_digit))
     print("Joltage: " + str(joltage))
 
     ## add to total
